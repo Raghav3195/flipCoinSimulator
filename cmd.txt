@@ -1,15 +1,3 @@
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~
-$ cd desktop/workspace/terminalcmd
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd
-$ ls
- demo1.sh         Employee_wage.py     flipcoin/   linuxproblem/   tempCodeRunnerFile.py
- employee_wage/  'Fincare notes.txt'   input.sh    sum.sh          tic.sh
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd
-$ cd flipcoin
-
 welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin
 $ git init
 Initialized empty Git repository in C:/Users/welcome/Desktop/workspace/terminalcmd/flipcoin/.git/
@@ -62,6 +50,8 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 
+
+--UC1--
 welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
 $ git checkout -b UC1
 Switched to a new branch 'UC1'
@@ -74,16 +64,6 @@ $ git commit -m "Featured added: generating random head and tails"
 [UC1 31c6b4c] Featured added: generating random head and tails
  1 file changed, 4 insertions(+)
  create mode 100644 index.py
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (UC1)
-$ git push
-fatal: The current branch UC1 has no upstream branch.
-To push the current branch and set the remote as upstream, use
-
-    git push --set-upstream origin UC1
-
-To have this happen automatically for branches without a tracking
-upstream, see 'push.autoSetupRemote' in 'git help config'.
 
 
 welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (UC1)
@@ -127,18 +107,6 @@ To https://github.com/Raghav3195/flipCoinSimulator.git
 welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
 $ nano index.py
 
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
-$ ./indexpy
-bash: ./indexpy: No such file or directory
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
-$ ./index.py
-./index.py: line 1: import: command not found
-./index.py: line 4: syntax error near unexpected token `"Enter number of times to flip the coin"'
-./index.py: line 4: `print("Enter number of times to flip the coin")'
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
-$ nano index.py
 
 welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
 $ python index.py
@@ -199,31 +167,13 @@ Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/Raghav3195/flipCoinSimulator.git
    31c6b4c..13a4e4c  main -> main
 
+
+
+--UC2--
 welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
 $ git checkout -b UC2
 Switched to a new branch 'UC2'
 
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (UC2)
-$ git add .
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (UC2)
-$ nano index.py
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (UC2)
-$ python index.py
-Enter number of times to flip the coin:
-5
-['tails', 'tails', 'heads', 'tails', 'tails']
-Percentage of Heads : %d 20.0
-Percentage of Tails : %d 80.0
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (UC2)
-$ python index.py
-Enter number of times to flip the coin:
-6
-['heads', 'heads', 'tails', 'heads', 'heads', 'heads']
-Percentage of Heads : %d 83.33333333333334
-Percentage of Tails : %d 16.666666666666664
 
 welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (UC2)
 $ git add .
@@ -266,199 +216,9 @@ Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/Raghav3195/flipCoinSimulator.git
    13a4e4c..8ccc62a  main -> main
 
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
-$ nano index.py
 
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
-$ python index.py
-  File "C:\Users\welcome\desktop\workspace\terminalcmd\flipcoin\index.py", line 21
-    double = list(itertools.product(result,repeat=2)
-                 ^
-SyntaxError: '(' was never closed
 
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
-$ nano index.py
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
-$ python index.py
-Enter number of times to flip the coin:
-5
-['tails', 'tails', 'tails', 'tails', 'tails']
-Percentage of Singlet Heads : %d 0.0
-Percentage of Singlet Tails : %d 100.0
-[('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails')]
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
-$ python index.py
-Enter number of times to flip the coin:
-5
-['tails', 'tails', 'tails', 'heads', 'tails']
-Percentage of Singlet Heads : %d 20.0
-Percentage of Singlet Tails : %d 80.0
-[('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'heads'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'heads'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'heads'), ('tails', 'tails'), ('heads', 'tails'), ('heads', 'tails'), ('heads', 'tails'), ('heads', 'heads'), ('heads', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'heads'), ('tails', 'tails')]
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
-$ nano index.py
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
-$ python index.py
-Enter number of times to flip the coin:
-5
-['heads', 'tails', 'tails', 'heads', 'tails']
-Percentage of Singlet Heads : %d 40.0
-Percentage of Singlet Tails : %d 60.0
-[('Head', 'Head'), ('Head', 'Tails'), ('Tails', 'Head'), ('Tails', 'Tails')]
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
-$ nano index.py
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
-$ python index.py
-Enter number of times to flip the coin:
-5
-['tails', 'tails', 'heads', 'heads', 'heads']
-Percentage of Singlet Heads : %d 60.0
-Percentage of Singlet Tails : %d 40.0
-[('heads', 'heads'), ('heads', 'tails'), ('tails', 'heads'), ('tails', 'tails')]
-Percentage of Double Head : %d 0.0
-Percentage of Double Tail : %d 0.0
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
-$ nano index.py
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
-$ python index.py
-Enter number of times to flip the coin:
-5
-['tails', 'tails', 'tails', 'heads', 'heads']
-Percentage of Singlet Heads : %d 40.0
-Percentage of Singlet Tails : %d 60.0
-[('heads', 'heads'), ('heads', 'tails'), ('tails', 'heads'), ('tails', 'tails')]
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
-$ nano index.py
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
-$ python index.py
-Enter number of times to flip the coin:
-5
-['heads', 'tails', 'tails', 'heads', 'tails']
-Percentage of Singlet Heads : %d 40.0
-Percentage of Singlet Tails : %d 60.0
-[('heads', 'heads'), ('heads', 'tails'), ('tails', 'heads'), ('tails', 'tails')]
-Traceback (most recent call last):
-  File "C:\Users\welcome\desktop\workspace\terminalcmd\flipcoin\index.py", line 24, in <module>
-    count = results.count(combination)
-NameError: name 'results' is not defined. Did you mean: 'result'?
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
-$ nano index.py
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
-$ python index.py
-Enter number of times to flip the coin:
-5
-['heads', 'heads', 'tails', 'heads', 'tails']
-Percentage of Singlet Heads : %d 60.0
-Percentage of Singlet Tails : %d 40.0
-[('heads', 'heads'), ('heads', 'tails'), ('tails', 'heads'), ('tails', 'tails')]
-Percentage of ('heads', 'heads'): 0.00%
-Percentage of ('heads', 'tails'): 0.00%
-Percentage of ('tails', 'heads'): 0.00%
-Percentage of ('tails', 'tails'): 0.00%
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
-$ nano index.py
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
-$ python index.py
-Enter number of times to flip the coin:
-5
-['heads', 'heads', 'heads', 'tails', 'tails']
-Percentage of Singlet Heads : %d 60.0
-Percentage of Singlet Tails : %d 40.0
-[('heads', 'heads'), ('heads', 'heads'), ('heads', 'heads'), ('heads', 'tails'), ('heads', 'tails'), ('heads', 'heads'), ('heads', 'heads'), ('heads', 'heads'), ('heads', 'tails'), ('heads', 'tails'), ('heads', 'heads'), ('heads', 'heads'), ('heads', 'heads'), ('heads', 'tails'), ('heads', 'tails'), ('tails', 'heads'), ('tails', 'heads'), ('tails', 'heads'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'heads'), ('tails', 'heads'), ('tails', 'heads'), ('tails', 'tails'), ('tails', 'tails')]
-Percentage of ('heads', 'heads'): 0.00%
-Percentage of ('heads', 'heads'): 0.00%
-Percentage of ('heads', 'heads'): 0.00%
-Percentage of ('heads', 'tails'): 0.00%
-Percentage of ('heads', 'tails'): 0.00%
-Percentage of ('heads', 'heads'): 0.00%
-Percentage of ('heads', 'heads'): 0.00%
-Percentage of ('heads', 'heads'): 0.00%
-Percentage of ('heads', 'tails'): 0.00%
-Percentage of ('heads', 'tails'): 0.00%
-Percentage of ('heads', 'heads'): 0.00%
-Percentage of ('heads', 'heads'): 0.00%
-Percentage of ('heads', 'heads'): 0.00%
-Percentage of ('heads', 'tails'): 0.00%
-Percentage of ('heads', 'tails'): 0.00%
-Percentage of ('tails', 'heads'): 0.00%
-Percentage of ('tails', 'heads'): 0.00%
-Percentage of ('tails', 'heads'): 0.00%
-Percentage of ('tails', 'tails'): 0.00%
-Percentage of ('tails', 'tails'): 0.00%
-Percentage of ('tails', 'heads'): 0.00%
-Percentage of ('tails', 'heads'): 0.00%
-Percentage of ('tails', 'heads'): 0.00%
-Percentage of ('tails', 'tails'): 0.00%
-Percentage of ('tails', 'tails'): 0.00%
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
-$ nano index.py
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
-$ python index.py
-Enter number of times to flip the coin:
-5
-['tails', 'heads', 'heads', 'tails', 'tails']
-Percentage of Singlet Heads : %d 40.0
-Percentage of Singlet Tails : %d 60.0
-[('tails', 'tails'), ('tails', 'heads'), ('tails', 'heads'), ('tails', 'tails'), ('tails', 'tails'), ('heads', 'tails'), ('heads', 'heads'), ('heads', 'heads'), ('heads', 'tails'), ('heads', 'tails'), ('heads', 'tails'), ('heads', 'heads'), ('heads', 'heads'), ('heads', 'tails'), ('heads', 'tails'), ('tails', 'tails'), ('tails', 'heads'), ('tails', 'heads'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'heads'), ('tails', 'heads'), ('tails', 'tails'), ('tails', 'tails')]
-Percentage of ('heads', 'heads'): 80.00%
-Percentage of ('heads', 'tails'): 120.00%
-Percentage of ('tails', 'heads'): 120.00%
-Percentage of ('tails', 'tails'): 180.00%
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
-$ nano index.py
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
-$ python index.py
-  File "C:\Users\welcome\desktop\workspace\terminalcmd\flipcoin\index.py", line 26
-    percentage = (count / len(dresults) * 100
-                 ^
-SyntaxError: '(' was never closed
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
-$ nano index.py
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
-$ python index.py
-Enter number of times to flip the coin:
-5
-['tails', 'heads', 'heads', 'tails', 'heads']
-Percentage of Singlet Heads : %d 60.0
-Percentage of Singlet Tails : %d 40.0
-[('tails', 'tails'), ('tails', 'heads'), ('tails', 'heads'), ('tails', 'tails'), ('tails', 'heads'), ('heads', 'tails'), ('heads', 'heads'), ('heads', 'heads'), ('heads', 'tails'), ('heads', 'heads'), ('heads', 'tails'), ('heads', 'heads'), ('heads', 'heads'), ('heads', 'tails'), ('heads', 'heads'), ('tails', 'tails'), ('tails', 'heads'), ('tails', 'heads'), ('tails', 'tails'), ('tails', 'heads'), ('heads', 'tails'), ('heads', 'heads'), ('heads', 'heads'), ('heads', 'tails'), ('heads', 'heads')]
-Percentage of ('heads', 'heads'): 36.00%
-Percentage of ('heads', 'tails'): 24.00%
-Percentage of ('tails', 'heads'): 24.00%
-Percentage of ('tails', 'tails'): 16.00%
-
-welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
-$ python index.py
-Enter number of times to flip the coin:
-6
-['tails', 'tails', 'tails', 'heads', 'tails', 'heads']
-Percentage of Singlet Heads : %d 33.33333333333333
-Percentage of Singlet Tails : %d 66.66666666666666
-[('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'heads'), ('tails', 'tails'), ('tails', 'heads'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'heads'), ('tails', 'tails'), ('tails', 'heads'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'heads'), ('tails', 'tails'), ('tails', 'heads'), ('heads', 'tails'), ('heads', 'tails'), ('heads', 'tails'), ('heads', 'heads'), ('heads', 'tails'), ('heads', 'heads'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'tails'), ('tails', 'heads'), ('tails', 'tails'), ('tails', 'heads'), ('heads', 'tails'), ('heads', 'tails'), ('heads', 'tails'), ('heads', 'heads'), ('heads', 'tails'), ('heads', 'heads')]
-Percentage of ('heads', 'heads'): 11.11%
-Percentage of ('heads', 'tails'): 22.22%
-Percentage of ('tails', 'heads'): 22.22%
-Percentage of ('tails', 'tails'): 44.44%
-
+--UC3--
 welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
 $ python index.py
 Enter number of times to flip the coin:
@@ -471,6 +231,7 @@ Percentage of ('heads', 'heads'): 25.00%
 Percentage of ('heads', 'tails'): 25.00%
 Percentage of ('tails', 'heads'): 25.00%
 Percentage of ('tails', 'tails'): 25.00%
+
 
 welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
 $ nano index.py
@@ -519,3 +280,76 @@ $ git push
 Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/Raghav3195/flipCoinSimulator.git
    8ccc62a..836f22c  main -> main
+
+
+
+
+--UC4--
+
+welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
+$ python index.py
+Enter number of times to flip the coin:
+5
+['tails', 'heads', 'tails', 'heads', 'tails']
+Percentage of Singlet Heads : %d 40.0
+Percentage of Singlet Tails : %d 60.0
+[('tails', 'tails'), ('tails', 'heads'), ('tails', 'tails'), ('tails', 'heads'), ('tails', 'tails'), ('heads', 'tails'), ('heads', 'heads'), ('heads', 'tails'), ('heads', 'heads'), ('heads', 'tails'), ('tails', 'tails'), ('tails', 'heads'), ('tails', 'tails'), ('tails', 'heads'), ('tails', 'tails'), ('heads', 'tails'), ('heads', 'heads'), ('heads', 'tails'), ('heads', 'heads'), ('heads', 'tails'), ('tails', 'tails'), ('tails', 'heads'), ('tails', 'tails'), ('tails', 'heads'), ('tails', 'tails')]
+Percentage of ('heads', 'heads'): 16.00%
+Percentage of ('heads', 'tails'): 24.00%
+Percentage of ('tails', 'heads'): 24.00%
+Percentage of ('tails', 'tails'): 36.00%
+[('tails', 'tails', 'tails'), ('tails', 'tails', 'heads'), ('tails', 'tails', 'tails'), ('tails', 'tails', 'heads'), ('tails', 'tails', 'tails'), ('tails', 'heads', 'tails'), ('tails', 'heads', 'heads'), ('tails', 'heads', 'tails'), ('tails', 'heads', 'heads'), ('tails', 'heads', 'tails'), ('tails', 'tails', 'tails'), ('tails', 'tails', 'heads'), ('tails', 'tails', 'tails'), ('tails', 'tails', 'heads'), ('tails', 'tails', 'tails'), ('tails', 'heads', 'tails'), ('tails', 'heads', 'heads'), ('tails', 'heads', 'tails'), ('tails', 'heads', 'heads'), ('tails', 'heads', 'tails'), ('tails', 'tails', 'tails'), ('tails', 'tails', 'heads'), ('tails', 'tails', 'tails'), ('tails', 'tails', 'heads'), ('tails', 'tails', 'tails'), ('heads', 'tails', 'tails'), ('heads', 'tails', 'heads'), ('heads', 'tails', 'tails'), ('heads', 'tails', 'heads'), ('heads', 'tails', 'tails'), ('heads', 'heads', 'tails'), ('heads', 'heads', 'heads'), ('heads', 'heads', 'tails'), ('heads', 'heads', 'heads'), ('heads', 'heads', 'tails'), ('heads', 'tails', 'tails'), ('heads', 'tails', 'heads'), ('heads', 'tails', 'tails'), ('heads', 'tails', 'heads'), ('heads', 'tails', 'tails'), ('heads', 'heads', 'tails'), ('heads', 'heads', 'heads'), ('heads', 'heads', 'tails'), ('heads', 'heads', 'heads'), ('heads', 'heads', 'tails'), ('heads', 'tails', 'tails'), ('heads', 'tails', 'heads'), ('heads', 'tails', 'tails'), ('heads', 'tails', 'heads'), ('heads', 'tails', 'tails'), ('tails', 'tails', 'tails'), ('tails', 'tails', 'heads'), ('tails', 'tails', 'tails'), ('tails', 'tails', 'heads'), ('tails', 'tails', 'tails'), ('tails', 'heads', 'tails'), ('tails', 'heads', 'heads'), ('tails', 'heads', 'tails'), ('tails', 'heads', 'heads'), ('tails', 'heads', 'tails'), ('tails', 'tails', 'tails'), ('tails', 'tails', 'heads'), ('tails', 'tails', 'tails'), ('tails', 'tails', 'heads'), ('tails', 'tails', 'tails'), ('tails', 'heads', 'tails'), ('tails', 'heads', 'heads'), ('tails', 'heads', 'tails'), ('tails', 'heads', 'heads'), ('tails', 'heads', 'tails'), ('tails', 'tails', 'tails'), ('tails', 'tails', 'heads'), ('tails', 'tails', 'tails'), ('tails', 'tails', 'heads'), ('tails', 'tails', 'tails'), ('heads', 'tails', 'tails'), ('heads', 'tails', 'heads'), ('heads', 'tails', 'tails'), ('heads', 'tails', 'heads'), ('heads', 'tails', 'tails'), ('heads', 'heads', 'tails'), ('heads', 'heads', 'heads'), ('heads', 'heads', 'tails'), ('heads', 'heads', 'heads'), ('heads', 'heads', 'tails'), ('heads', 'tails', 'tails'), ('heads', 'tails', 'heads'), ('heads', 'tails', 'tails'), ('heads', 'tails', 'heads'), ('heads', 'tails', 'tails'), ('heads', 'heads', 'tails'), ('heads', 'heads', 'heads'), ('heads', 'heads', 'tails'), ('heads', 'heads', 'heads'), ('heads', 'heads', 'tails'), ('heads', 'tails', 'tails'), ('heads', 'tails', 'heads'), ('heads', 'tails', 'tails'), ('heads', 'tails', 'heads'), ('heads', 'tails', 'tails'), ('tails', 'tails', 'tails'), ('tails', 'tails', 'heads'), ('tails', 'tails', 'tails'), ('tails', 'tails', 'heads'), ('tails', 'tails', 'tails'), ('tails', 'heads', 'tails'), ('tails', 'heads', 'heads'), ('tails', 'heads', 'tails'), ('tails', 'heads', 'heads'), ('tails', 'heads', 'tails'), ('tails', 'tails', 'tails'), ('tails', 'tails', 'heads'), ('tails', 'tails', 'tails'), ('tails', 'tails', 'heads'), ('tails', 'tails', 'tails'), ('tails', 'heads', 'tails'), ('tails', 'heads', 'heads'), ('tails', 'heads', 'tails'), ('tails', 'heads', 'heads'), ('tails', 'heads', 'tails'), ('tails', 'tails', 'tails'), ('tails', 'tails', 'heads'), ('tails', 'tails', 'tails'), ('tails', 'tails', 'heads'), ('tails', 'tails', 'tails')]
+Percentage of ('heads', 'heads', 'heads'): 6.40%
+Percentage of ('heads', 'heads', 'tails'): 9.60%
+Percentage of ('heads', 'tails', 'heads'): 9.60%
+Percentage of ('heads', 'tails', 'tails'): 14.40%
+Percentage of ('tails', 'heads', 'heads'): 9.60%
+Percentage of ('tails', 'heads', 'tails'): 14.40%
+Percentage of ('tails', 'tails', 'heads'): 14.40%
+Percentage of ('tails', 'tails', 'tails'): 21.60%
+
+welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
+$ git checkout -b UC4
+Switched to a new branch 'UC4'
+
+welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (UC4)
+$ git add .
+
+welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (UC4)
+$ git commit -m "Feature added: Triplet Percentage"
+[UC4 16ce39f] Feature added: Triplet Percentage
+ 1 file changed, 8 insertions(+)
+
+welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (UC4)
+$ git push origin UC4
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 420 bytes | 420.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'UC4' on GitHub by visiting:
+remote:      https://github.com/Raghav3195/flipCoinSimulator/pull/new/UC4
+remote:
+To https://github.com/Raghav3195/flipCoinSimulator.git
+ * [new branch]      UC4 -> UC4
+
+welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (UC4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
+$ git merge UC4
+Updating 5c7e905..16ce39f
+Fast-forward
+ index.py | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+
+welcome@LAPTOP-DFGD3T96 MINGW64 ~/desktop/workspace/terminalcmd/flipcoin (main)
+$ git push
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Raghav3195/flipCoinSimulator.git
+   5c7e905..16ce39f  main -> main
