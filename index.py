@@ -25,3 +25,11 @@ for combination in double:
             count = dresults.count(combination)
             percentage = (count / len(dresults)) * 100
             print(f"Percentage of {combination}: {percentage:.2f}%")
+
+tresults=list(itertools.product(result,repeat=3))
+triple = list(itertools.product(['heads','tails'],repeat=3))
+print(tresults)
+for combination1 in triple:
+            count1 = tresults.count(combination1)
+            percentage1 = (count1 / len(tresults)) * 100
+            print(f"Percentage of {combination1}: {percentage1:.2f}%")
