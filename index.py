@@ -1,4 +1,10 @@
 import random
 
-result=random.choice(['heads','tails'])
-print(result)
+
+def flip():
+	return random.choice(['heads','tails'])
+
+
+
+print(flip())
+
